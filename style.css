@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2; /* light gray background */
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(180deg, rgb(160, 217, 240), rgb(94, 94, 91));
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(100, 86, 86) ;
+}
+
+h1 {
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+}
+
+input:hover {
+    transition: 0.5s;
+    background-color: rgb(206, 202, 202);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e71a8;
+    border-radius: 10px ;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0c488b;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
